@@ -9,7 +9,7 @@ phina.define('ResultScene',{
         var titleLabel = Label({
             text:'あけおめ🐮',
             fontFamily:'chihaya',
-            fontSize:150,
+            fontSize:120,
         });
         titleLabel.addChildTo(this)
         .setPosition(this.gridX.center(),this.gridY.span(5));

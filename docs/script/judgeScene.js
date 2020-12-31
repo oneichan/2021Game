@@ -18,7 +18,7 @@ phina.define('JudgeScene',{
         // ラベル
         var label = NotoLabel();
         label.addChildTo(this)
-            .setPosition(this.gridX.center(), this.gridY.span(3));
+            .setPosition(this.gridX.center(), this.gridY.span(2));
         if(param.isCorrect){
             label.text = "正解！ \n これは" + param.correctWord + "です";
             g_CorrectQuizCount++;

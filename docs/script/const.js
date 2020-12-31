@@ -46,7 +46,7 @@ const CHOICE_HEIGHT = 50;
 const CHOICE_COLUMN_X = 1;
 const CHOICE_COLUMN_Y = 4;
 
-const USI_SIZE_SCALE = 0.4;
+const USI_SIZE_SCALE = 1;
 const USI_GRID_Y = 7;
 const GAME_TIME = 30000;
 

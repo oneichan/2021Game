@@ -83,9 +83,9 @@ phina.define('QuizScene', {
             offset: SCREEN_WIDTH / 2,
           });
         var choiceGridY = Grid({
-            width:(CHOICE_HEIGHT + 15) * CHOICE_COLUMN_Y,
+            width:(CHOICE_HEIGHT + 20) * CHOICE_COLUMN_Y,
             columns: CHOICE_COLUMN_Y,
-            offset: (SCREEN_HEIGHT / 4) * 3
+            offset: (SCREEN_HEIGHT / 4) * 2.9
         })
         for (let index = 0; index < dispChoices.length; index++) {
             var choiceObj = dispChoices[index];
@@ -124,7 +124,7 @@ phina.define('ChoiceButton', {
 
         this.text = options.word;
 
-        this.setSize(SCREEN_WIDTH - 10, CHOICE_HEIGHT);
+        this.setSize(SCREEN_WIDTH - 50, CHOICE_HEIGHT);
 
         this.onpush = function () {
           options.scene.exit('judge', {
